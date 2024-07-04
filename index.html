@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Thumbnail Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>YouTube Thumbnail Downloader</h1>
+    </header>
+    <main>
+        <div class="container">
+            <label for="youtube-url">Enter YouTube Video URL:</label>
+            <input type="text" id="youtube-url" placeholder="https://www.youtube.com/watch?v=videoid">
+            <button id="download-btn">Download Thumbnail</button>
+            <div id="thumbnail-container"></div>
+            <button id="save-btn" style="display: none;">SAVE</button>
+            <div id="notification" style="display: none;">Thumbnail has been downloaded to your system.</div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 YouTube Thumbnail Downloader. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
